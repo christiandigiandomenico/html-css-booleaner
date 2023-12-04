@@ -65,6 +65,16 @@ h1 {
     padding-left: 0;
 }
 
+#noborders {
+    border-collapse: collapse;
+    border: none;
+}
+
+#noborders td,
+#noborders th {
+    border: none;
+}
+
 th {
     color: white;
     background-color: #20a9e5;
@@ -84,4 +94,34 @@ th {
 
 .content2 {
     text-align: justify;
+}
+
+.mightinterest {
+    color: #808080;
+    margin-bottom: 15px;
+}
+
+.container {
+    width: 250px;
+    height: 150px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#monitor {
+    background-image: url(../img/monitor.jpg);
+    background-size: contain;
+}
+
+#graph {
+    background-image: url(../img/graph.jpg);
+    background-size: contain;
+}
+
+.internlink {
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
 }
