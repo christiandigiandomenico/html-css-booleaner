@@ -61,8 +61,8 @@ h1 {
 
 #listalorem {
     text-align: left;
-    margin-left: 0;
     padding-left: 0;
+    list-style: inside;
 }
 
 #noborders {
